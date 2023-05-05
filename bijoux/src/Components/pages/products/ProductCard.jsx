@@ -8,7 +8,9 @@ export default function ProductCard(props) {
         to={`/products/${id}`}
         style={{ textDecoration: "none", color: "#696b66" }}
       >
-        <div style={{ border: "1px solid rgb(164, 164, 164)" }}>
+        <div
+          style={{ border: "1px solid rgb(164, 164, 164)", height: "450px" }}
+        >
           <img src={image_url} alt={name} width="100%" />
           <div style={{ padding: "10px" }}>
             <p>{category}</p>

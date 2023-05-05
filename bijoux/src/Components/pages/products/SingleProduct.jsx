@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Button } from "@chakra-ui/react";
+import { useToast } from "@chakra-ui/react";
 import axios from "axios";
 export default function SingleProduct() {
+  const toast = useToast();
   const { id } = useParams();
   const [product, setProduct] = useState({});
 
@@ -11,6 +13,25 @@ export default function SingleProduct() {
       console.log(res.data);
       setProduct(res.data);
     });
+  };
+
+  const hadleAddToCart = () => {
+    axios
+      .post("http://localhost:8080/cart", { ...product })
+      .then(function (response) {
+        console.log(response);
+        toast({
+          title: "Product Added to Cart",
+          description:
+            "Please check the cart page to see the products in the cart",
+          status: "success",
+          duration: 9000,
+          isClosable: true,
+        });
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
 
   useEffect(() => {
@@ -22,19 +43,20 @@ export default function SingleProduct() {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
           margin: "30px",
           color: "#696b66",
         }}
       >
         <div style={{ width: "40%" }}>
-          <img src={product.image_url} alt={product.name} width="90%" />
+          <img src={product.image_url} alt={product.name} width="80%" />
         </div>
         <div
           style={{
-            width: "40%",
+            width: "50%",
             border: "1px solid rgb(164, 164, 164)",
             textAlign: "left",
+            height: "40%",
             padding: "30px",
             // display: "flex",
             // flexDirection: "column",
@@ -42,7 +64,10 @@ export default function SingleProduct() {
             // justifyContent: "space-evenly",
           }}
         >
-          <h3>{product.name}</h3>
+          <h1 style={{ fontSize: "25px", padding: "10px" }}>
+            BijouX Product Details
+          </h1>
+          <h1>{product.name}</h1>
           <p>{product.category}</p>
           <p>{product.description}</p>
           <h2>₹ {product.price}</h2>
@@ -57,6 +82,7 @@ export default function SingleProduct() {
                 width: "100%",
                 margin: "10px",
               }}
+              onClick={hadleAddToCart}
             >
               ADD TO CART
             </button>
@@ -75,6 +101,9 @@ export default function SingleProduct() {
             </button>
           </div>
           <div>
+            <h1 style={{ fontSize: "25px", textAlign: "center" }}>
+              User Reviews
+            </h1>
             {product?.reviews?.map((review) => {
               return (
                 <div
@@ -84,9 +113,9 @@ export default function SingleProduct() {
                     padding: "10px",
                   }}
                 >
-                  <h4>{review.user}</h4>
+                  <h4>User: {review.user}</h4>
                   <p>Rating: {review.rating}</p>
-                  <p>{review.comment}</p>
+                  <p>Comment: {review.comment}</p>
                 </div>
               );
             })}

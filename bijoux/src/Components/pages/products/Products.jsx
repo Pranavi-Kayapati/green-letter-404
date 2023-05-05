@@ -21,10 +21,16 @@ export default function Products() {
       style={{
         display: "flex",
         justifyContent: "space-evenly",
-        alignItems: "center",
+        // alignItems: "center",
       }}
     >
-      <div style={{ width: "25%", border: "1px solid rgb(164, 164, 164)" }}>
+      <div
+        style={{
+          width: "20%",
+          border: "1px solid rgb(164, 164, 164)",
+          marginTop: "45px",
+        }}
+      >
         <h1>Side</h1>
       </div>
       <div
@@ -33,7 +39,7 @@ export default function Products() {
           gridTemplateColumns: "repeat(4,1fr",
           gap: "40px 20px",
           padding: "50px",
-          width: "70%",
+          width: "75%",
         }}
       >
         {data?.map((item) => {

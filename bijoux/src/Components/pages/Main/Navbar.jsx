@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { PhoneIcon, AddIcon, WarningIcon, SearchIcon } from "@chakra-ui/icons";
+import { IconButton } from "@chakra-ui/react";
 export default function Navbar() {
   return (
     <div>
@@ -26,9 +28,22 @@ export default function Navbar() {
           {/* <img src={bijoux} alt="logo" /> */}
         </div>
         <div className="Right">
-          <h4>U</h4>
-          <h4>S</h4>
-          <h4>F</h4>
+          <Link to="/login">
+            <h4>U</h4>
+          </Link>
+          <Link to="/products">
+            <IconButton
+              aria-label="Search database"
+              icon={<SearchIcon />}
+              style={{ background: "none" }}
+            />
+          </Link>
+          <Link to="/favourite">
+            <h4>F</h4>
+          </Link>
+          <Link to="/cart">
+            <h4>C</h4>
+          </Link>
         </div>
       </div>
       <hr />

@@ -536,7 +536,6 @@
         }
       ]
     },
-
     {
       "id": 31,
       "name": "Sapphire and Diamond Ring",
@@ -857,5 +856,88 @@
         }
       ]
     }
-  ]
+  ],
+  "cart": [
+    {
+      "id": 3,
+      "name": "Gold Bracelet",
+      "category": "Bracelets",
+      "description": "A simple and elegant gold bracelet that will never go out of style.",
+      "price": 500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew97551062-11_1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice bracelet, but a bit pricey."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I wear this bracelet every day! It's perfect."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rose Gold Earrings",
+      "category": "Earrings",
+      "description": "Beautiful rose gold earrings that will add a touch of elegance to any outfit.",
+      "price": 350,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104495-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice earrings, but I wish they were a bit bigger."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I love these earrings! They're so pretty and delicate."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sapphire Necklace",
+      "category": "Necklaces",
+      "description": "A gorgeous sapphire necklace that will make a statement.",
+      "price": 1800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1102854-4_2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely stunning necklace! It's even more beautiful in person."
+        },
+        {
+          "user": "janedoe",
+          "rating": 3,
+          "comment": "Nice necklace, but I wish it was a bit cheaper."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Diamond Necklace",
+      "category": "Necklaces",
+      "description": "A stunning diamond necklace that will add sparkle to any outfit.",
+      "price": 1500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/d/s/dsc_4904_1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely gorgeous! I get so many compliments on this necklace."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful necklace, but a bit too expensive for my taste."
+        }
+      ]
+    }
+  ],
+  "favoutites": []
 }

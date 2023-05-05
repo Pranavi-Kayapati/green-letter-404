@@ -15,7 +15,7 @@ export default function AllRoutes() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/products" element={<Products />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
-        <Route path="/favorite" element={<Favorite />}></Route>
+        <Route path="/favourite" element={<Favorite />}></Route>
         <Route path="*" element={<PageNotFound />}></Route>
         <Route path="/products/:id" element={<SingleProduct />}></Route>
       </Routes>
