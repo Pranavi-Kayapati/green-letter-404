@@ -1,0 +1,943 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Diamond Necklace",
+      "category": "Necklaces",
+      "description": "A stunning diamond necklace that will add sparkle to any outfit.",
+      "price": 1500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/d/s/dsc_4904_1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely gorgeous! I get so many compliments on this necklace."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful necklace, but a bit too expensive for my taste."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pearl Earrings",
+      "category": "Earrings",
+      "description": "Classic pearl earrings that are perfect for any occasion.",
+      "price": 250,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew220885-12_copy.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Love these earrings! They go with everything."
+        },
+        {
+          "user": "janedoe",
+          "rating": 3,
+          "comment": "Nice earrings, but I wish they were a bit bigger."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gold Bracelet",
+      "category": "Bracelets",
+      "description": "A simple and elegant gold bracelet that will never go out of style.",
+      "price": 500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew97551062-11_1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice bracelet, but a bit pricey."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I wear this bracelet every day! It's perfect."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ruby Ring",
+      "category": "Rings",
+      "description": "A beautiful ruby ring that will make a statement.",
+      "price": 1200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103513-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 3,
+          "comment": "Nice ring, but the ruby is a bit small."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Gorgeous ring! I love the color of the ruby."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sapphire Necklace",
+      "category": "Necklaces",
+      "description": "A gorgeous sapphire necklace that will make a statement.",
+      "price": 1800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1102854-4_2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely stunning necklace! It's even more beautiful in person."
+        },
+        {
+          "user": "janedoe",
+          "rating": 3,
+          "comment": "Nice necklace, but I wish it was a bit cheaper."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rose Gold Earrings",
+      "category": "Earrings",
+      "description": "Beautiful rose gold earrings that will add a touch of elegance to any outfit.",
+      "price": 350,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104495-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice earrings, but I wish they were a bit bigger."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I love these earrings! They're so pretty and delicate."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Diamond Stud Earrings",
+      "category": "Earrings",
+      "description": "Classic diamond stud earrings that are a must-have in any jewelry collection.",
+      "price": 1200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew97661193-2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Love these earrings! They're perfect for any occasion."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful earrings, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Diamond Tennis Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning diamond tennis bracelet that will add glamour to any outfit.",
+      "price": 2800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103990-7.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely stunning bracelet! It's so sparkly and elegant."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for my budget."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Gold Hoop Earrings",
+      "category": "Earrings",
+      "description": "Classic gold hoop earrings that will never go out of style.",
+      "price": 150,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104455-t.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice earrings, but I wish they were a bit bigger."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "Love these earrings! They're so simple yet elegant."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Emerald Cut Diamond Ring",
+      "category": "Rings",
+      "description": "A stunning emerald cut diamond ring that will take your breath away.",
+      "price": 4500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104346-8.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely stunning ring! The diamond is so clear and sparkly."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful ring, but a bit too expensive for my taste."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Pearl Necklace",
+      "category": "Necklaces",
+      "description": "A timeless pearl necklace that will add elegance to any outfit.",
+      "price": 550,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103514-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice necklace, but I wish the pearls were a bit bigger."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I love this necklace! It's so classic and elegant."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Diamond Cluster Ring",
+      "category": "Rings",
+      "description": "A stunning diamond cluster ring that will make a statement.",
+      "price": 2800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103825-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Love this ring! The diamonds are so sparkly and the design is unique."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful ring, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Gold Chain Bracelet",
+      "category": "Bracelets",
+      "description": "A simple and elegant gold chain bracelet that will go with anything.",
+      "price": 250,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew221237-2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice bracelet, but I wish it was a bit thicker."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "Love this bracelet! It's so simple yet chic."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Diamond Halo Pendant",
+      "category": "Necklaces",
+      "description": "A beautiful diamond halo pendant that will make a great gift.",
+      "price": 1200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104485-1_1.jpg",
+      "reviews": [
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely pendant, but I wish the chain was a bit longer."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Sapphire Stud Earrings",
+      "category": "Earrings",
+      "description": "A beautiful pair of sapphire stud earrings that will add a pop of color to any outfit.",
+      "price": 900,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew220933.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice earrings, but I wish the sapphires were a bit bigger."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "Love these earrings! The sapphires are so vibrant and the size is perfect."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Diamond Tennis Bracelet",
+      "category": "Bracelets",
+      "description": "A classic diamond tennis bracelet that will never go out of style.",
+      "price": 3800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103553.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely stunning bracelet! The diamonds are so sparkly and the design is timeless."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Opal and Diamond Ring",
+      "category": "Rings",
+      "description": "A unique opal and diamond ring that will make a statement.",
+      "price": 2200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104346-8.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice ring, but the opal is smaller than I expected."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I love this ring! The opal is so unique and the diamonds add the perfect touch of sparkle."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Diamond Hoop Earrings",
+      "category": "Earrings",
+      "description": "A classic pair of diamond hoop earrings that will add sophistication to any outfit.",
+      "price": 3200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104959_1_2_.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely gorgeous earrings! The diamonds are so clear and sparkly."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely earrings, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Pearl Stud Earrings",
+      "category": "Earrings",
+      "description": "A classic pair of pearl stud earrings that will never go out of style.",
+      "price": 450,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew221127-5.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "These earrings are perfect! The pearls are so lustrous and the size is just right."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Nice earrings, but I wish they were a bit bigger."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Emerald and Diamond Ring",
+      "category": "Rings",
+      "description": "A stunning emerald and diamond ring that will make a great addition to any jewelry collection.",
+      "price": 2900,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103199-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This ring is breathtaking! The emerald is so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely ring, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Diamond Drop Earrings",
+      "category": "Earrings",
+      "description": "A stunning pair of diamond drop earrings that will add elegance to any outfit.",
+      "price": 5500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew221261-4.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "These earrings are absolutely stunning! The diamonds are so clear and sparkly and the design is unique."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful earrings, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Sapphire and Diamond Necklace",
+      "category": "Necklaces",
+      "description": "A beautiful sapphire and diamond necklace that will make a great gift for a loved one.",
+      "price": 4200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103480-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This necklace is so beautiful! The sapphires are so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely necklace, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Ruby and Diamond Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning ruby and diamond bracelet that will make a great addition to any jewelry collection.",
+      "price": 5400,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew221104_3.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is gorgeous! The rubies are so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Pearl Strand Necklace",
+      "category": "Necklaces",
+      "description": "A classic pearl strand necklace that will never go out of style.",
+      "price": 1200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1102927-4_2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This necklace is so elegant and timeless! The pearls are so lustrous and the length is just right."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely necklace, but I wish the pearls were a bit larger."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Diamond Tennis Bracelet",
+      "category": "Bracelets",
+      "description": "A classic diamond tennis bracelet that will never go out of style.",
+      "price": 7800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/d/s/dsc_5064_square.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is stunning! The diamonds are so clear and sparkly and the design is timeless."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Emerald Stud Earrings",
+      "category": "Earrings",
+      "description": "A classic pair of emerald stud earrings that will never go out of style.",
+      "price": 320,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104628-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "These earrings are beautiful! The emeralds are so vibrant and the size is just right."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely earrings, but I wish they were a bit larger."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Sapphire and Diamond Ring",
+      "category": "Rings",
+      "description": "A stunning sapphire and diamond ring that will make a great addition to any jewelry collection.",
+      "price": 3900,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103196-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This ring is absolutely stunning! The sapphire is so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful ring, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Sapphire and Diamond Ring",
+      "category": "Rings",
+      "description": "A stunning sapphire and diamond ring that will make a great addition to any jewelry collection.",
+      "price": 3900,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103203-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This ring is absolutely stunning! The sapphire is so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful ring, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Diamond Solitaire Necklace",
+      "category": "Necklaces",
+      "description": "A classic diamond solitaire necklace that will never go out of style.",
+      "price": 2400,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104665_zoom.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This necklace is so elegant and timeless! The diamond is so clear and sparkly and the chain is the perfect length."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely necklace, but I wish the diamond was a bit larger."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Diamond Cluster Earrings",
+      "category": "Earrings",
+      "description": "A stunning pair of diamond cluster earrings that will add elegance to any outfit.",
+      "price": 4800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew221093-4.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "These earrings are absolutely gorgeous! The diamonds are so clear and sparkly and the design is stunning."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful earrings, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Pearl Drop Earrings",
+      "category": "Earrings",
+      "description": "A classic pair of pearl drop earrings that will never go out of style.",
+      "price": 420,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew221240.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "These earrings are so elegant and timeless! The pearls are so lustrous and the length is just right."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely earrings, but I wish the pearls were a bit larger."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Rose Gold Diamond Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning rose gold bracelet with diamonds that will add elegance to any outfit.",
+      "price": 2200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104205-2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is absolutely stunning! The diamonds are so clear and sparkly and the rose gold is so elegant."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Emerald and Diamond Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning emerald and diamond bracelet that will make a great addition to any jewelry collection.",
+      "price": 3600,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104349-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is absolutely stunning! The emeralds are so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Pearl Strand Necklace",
+      "category": "Necklaces",
+      "description": "A classic pearl strand necklace that will never go out of style.",
+      "price": 890,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew221137-4.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This necklace is so elegant and timeless! The pearls are so lustrous and the length is just right."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely necklace, but I wish the pearls were a bit larger."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Diamond Tennis Bracelet",
+      "category": "Bracelets",
+      "description": "A classic diamond tennis bracelet that will never go out of style.",
+      "price": 5200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104787-3.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is so elegant and timeless! The diamonds are so clear and sparkly and the design is stunning."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Rose Gold Diamond Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning rose gold bracelet with diamonds that will add elegance to any outfit.",
+      "price": 2200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103366-6.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is absolutely stunning! The diamonds are so clear and sparkly and the rose gold is so elegant."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Emerald and Diamond Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning emerald and diamond bracelet that will make a great addition to any jewelry collection.",
+      "price": 3600,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104284-7.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is absolutely stunning! The emeralds are so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Pearl Strand Necklace",
+      "category": "Necklaces",
+      "description": "A classic pearl strand necklace that will never go out of style.",
+      "price": 890,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103074-3.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This necklace is so elegant and timeless! The pearls are so lustrous and the length is just right."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely necklace, but I wish the pearls were a bit larger."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Diamond Tennis Bracelet",
+      "category": "Bracelets",
+      "description": "A classic diamond tennis bracelet that will never go out of style.",
+      "price": 5200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103806-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is so elegant and timeless! The diamonds are so clear and sparkly and the design is stunning."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Rose Gold Diamond Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning rose gold bracelet with diamonds that will add elegance to any outfit.",
+      "price": 2200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103519-2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is absolutely stunning! The diamonds are so clear and sparkly and the rose gold is so elegant."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Emerald and Diamond Bracelet",
+      "category": "Bracelets",
+      "description": "A stunning emerald and diamond bracelet that will make a great addition to any jewelry collection.",
+      "price": 3600,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104262-3.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is absolutely stunning! The emeralds are so vibrant and the diamonds add the perfect touch of sparkle."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful bracelet, but a bit too expensive for me."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Pearl Strand Necklace",
+      "category": "Necklaces",
+      "description": "A classic pearl strand necklace that will never go out of style.",
+      "price": 890,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104602_zoom.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This necklace is so elegant and timeless! The pearls are so lustrous and the length is just right."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely necklace, but I wish the pearls were a bit larger."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Diamond Tennis Bracelet",
+      "category": "Bracelets",
+      "description": "A classic diamond tennis bracelet that will never go out of style.",
+      "price": 5200,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1103873-5.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "This bracelet is so elegant and timeless! The diamonds are so clear and sparkly and the design is stunning."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Lovely bracelet, but a bit too expensive for me."
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": 3,
+      "name": "Gold Bracelet",
+      "category": "Bracelets",
+      "description": "A simple and elegant gold bracelet that will never go out of style.",
+      "price": 500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew97551062-11_1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice bracelet, but a bit pricey."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I wear this bracelet every day! It's perfect."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rose Gold Earrings",
+      "category": "Earrings",
+      "description": "Beautiful rose gold earrings that will add a touch of elegance to any outfit.",
+      "price": 350,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1104495-1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 4,
+          "comment": "Nice earrings, but I wish they were a bit bigger."
+        },
+        {
+          "user": "janedoe",
+          "rating": 5,
+          "comment": "I love these earrings! They're so pretty and delicate."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sapphire Necklace",
+      "category": "Necklaces",
+      "description": "A gorgeous sapphire necklace that will make a statement.",
+      "price": 1800,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/j/e/jew1102854-4_2.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely stunning necklace! It's even more beautiful in person."
+        },
+        {
+          "user": "janedoe",
+          "rating": 3,
+          "comment": "Nice necklace, but I wish it was a bit cheaper."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Diamond Necklace",
+      "category": "Necklaces",
+      "description": "A stunning diamond necklace that will add sparkle to any outfit.",
+      "price": 1500,
+      "image_url": "https://everstylish.com/pub/media/catalog/product/cache/689aad3dff30df62a7b33021fe130799/d/s/dsc_4904_1.jpg",
+      "reviews": [
+        {
+          "user": "johndoe",
+          "rating": 5,
+          "comment": "Absolutely gorgeous! I get so many compliments on this necklace."
+        },
+        {
+          "user": "janedoe",
+          "rating": 4,
+          "comment": "Beautiful necklace, but a bit too expensive for my taste."
+        }
+      ]
+    }
+  ],
+  "favoutites": []
+}
