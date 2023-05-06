@@ -15,15 +15,14 @@ export default function SingleProduct() {
     });
   };
 
-  const hadleAddToCart = () => {
+  const hadleAddToFav = () => {
     axios
-      .post("http://localhost:8080/cart", { ...product })
+      .post("http://localhost:8080/favorites", { ...product })
       .then(function (response) {
         console.log(response);
         toast({
-          title: "Product Added to Cart",
-          description:
-            "Please check the cart page to see the products in the cart",
+          title: "Product Added to Favorites",
+          description: "Please check the Favorite page to see the products.",
           status: "success",
           duration: 9000,
           isClosable: true,
@@ -31,6 +30,38 @@ export default function SingleProduct() {
       })
       .catch(function (error) {
         console.log(error);
+        toast({
+          title: "Product Already in Favorites",
+          description: "",
+          status: "error",
+          duration: 9000,
+          isClosable: true,
+        });
+      });
+  };
+
+  const hadleAddToCart = () => {
+    axios
+      .post("http://localhost:8080/cart", { ...product })
+      .then(function (response) {
+        console.log(response);
+        toast({
+          title: "Product Added to Cart",
+          description: "Please check the Cart page to see the products.",
+          status: "success",
+          duration: 9000,
+          isClosable: true,
+        });
+      })
+      .catch(function (error) {
+        console.log(error);
+        toast({
+          title: "Product Already in Cart",
+          description: "",
+          status: "error",
+          duration: 9000,
+          isClosable: true,
+        });
       });
   };
 
@@ -96,6 +127,7 @@ export default function SingleProduct() {
                 color: "black",
                 margin: "10px",
               }}
+              onClick={hadleAddToFav}
             >
               ADD TO FAVOURITE
             </button>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 export default function ProductCard(props) {
-  console.log(props);
+  // console.log(props);
   const { id, name, price, image_url, category, description, reviews } = props;
   return (
     <div>
@@ -9,7 +9,7 @@ export default function ProductCard(props) {
         style={{ textDecoration: "none", color: "#696b66" }}
       >
         <div
-          style={{ border: "1px solid rgb(164, 164, 164)", height: "450px" }}
+          style={{ border: "1px solid rgb(164, 164, 164)", height: "480px" }}
         >
           <img src={image_url} alt={name} width="100%" />
           <div style={{ padding: "10px" }}>
